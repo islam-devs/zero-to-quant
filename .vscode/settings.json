@@ -1,0 +1,24 @@
+{
+    // Project-specific Git settings
+    "git.enableSmartCommit": true,
+    "git.postCommitCommand": "sync",
+    "git.showPushSuccessNotification": true,
+
+    // Auto-formatting on save
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+
+    // File management
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    // GitLens project settings
+    "gitlens.codeLens.scopes": ["document"],
+    "gitlens.currentLine.enabled": true,
+    "gitlens.statusBar.enabled": true
+}
